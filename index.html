@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Collection</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>Pokémon Collection</h1>
+  
+  <div id="pokemonList"></div>
+
+  <div id="detailView" style="display: none;">
+    <h2>Pokémon Details</h2>
+    <p><strong>Name:</strong> <span id="pokemonName"></span></p>
+    <p><strong>Abilities:</strong> <span id="pokemonAbilities"></span></p>
+    <p><strong>Types:</strong> <span id="pokemonTypes"></span></p>
+    <img src="" alt="Pokemon Sprite" id="pokemonSprite">
+    <button id="addToCollection">Add to Collection</button>
+    <button id="removeFromCollection">Remove from Collection</button>
+  </div>
+
+  <h2>User Collection</h2>
+  <ul id="collectionList"></ul>
+
+  <script src="./script.js"></script>
+</body>
+</html>
